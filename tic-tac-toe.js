@@ -34,6 +34,16 @@ window.addEventListener( 'load' , (event) => {
         });
 
 
+        
+        //Control hover
+        childrenArr[i].onmouseover= function(){
+            childrenArr[i].classList.add("hover");
+        }
+        childrenArr[i].onmouseleave= function(){            
+            childrenArr[i].classList.remove("hover");
+        }
+
+        
     }
 
     var squares= document.getElementsByClassName("square");
