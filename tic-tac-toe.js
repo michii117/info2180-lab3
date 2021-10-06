@@ -88,6 +88,8 @@ function checkWinner(m){
     }
 }
 
+
+
 function move(m,i){
     childrenArr[i].classList.add(m)
     childrenArr[i].innerHTML= m;
